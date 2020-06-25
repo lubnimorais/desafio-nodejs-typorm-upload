@@ -22,7 +22,7 @@ transactionsRouter.post('/', async (request, response) => {
 
   const transactionCreateService = new CreateTransactionService();
 
-  const transaction = transactionCreateService.execute({
+  const transaction = await transactionCreateService.execute({
     title,
     value,
     type,
