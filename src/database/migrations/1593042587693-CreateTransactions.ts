@@ -37,11 +37,6 @@ export default class CreateTransactions1593042587693
             isNullable: true,
           },
           {
-            name: 'category',
-            type: 'varchar',
-            isNullable: true,
-          },
-          {
             name: 'created_at',
             type: 'timestamp',
             default: 'now()',
